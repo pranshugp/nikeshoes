@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="loader">
+        <img src="nikelogo.png" alt="">
+    </div>
+    <div id="main">
+
+
+        <div id="nav">
+
+
+            <img src="nikelogo.png" alt="">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+
+            <div id="nav2">
+                <a href="">NEW RELEASES</a>
+                <a href="">MEN</a>
+                <a href="">WOMEN</a>
+                <a href="">KIDS</a>
+                <a href="">CUSTOMIZE</a>
+            </div>
+            <div id="nav3">
+                <i class="ri-search-line"></i>
+                <h4>Search</h4>
+            </div>
+            <i class="ri-shopping-cart-2-line"></i>
+        </div>
+
+        <div id="left">
+            <h2>$225</h2>
+            <h1>Air Jordan 6 <br>Retro SP</h1>
+            <div id="icon">
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minima laudantium a? Libero, minima dolore consequuntur ab quisquam debitis eos?</p>
+            <button>add to cart</button>
+
+
+
+        </div>
+        <div id="right">
+
+        </div>
+        <img src="shoes.png" alt="">
+        <h1>Air6Jordan</h1>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+        var nav = document.getElementById("nav");
+
+        function showMenu(); {
+            nav.style.right = "0";
+        }
+
+        function hidemenu() {
+            nav.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
